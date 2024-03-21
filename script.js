@@ -117,7 +117,17 @@ console.log( output);
 //template literral
 const output1=`Hey my name is ${firstName}  ${lastName}  and age Of ${age} Years`;
 console.log( output1);
+
+
+const num = 20;
+const remainder = num%2;
+if(remainder==0){
+    console.log("the number is even")
+}else{
+    console.log('this number is ODD')
+}
+const a=10;
+for(let i=0;i<=a;i++){
+    console.log(i);
+}
 */
-
-
-/
