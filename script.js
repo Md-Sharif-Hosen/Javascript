@@ -55,8 +55,17 @@ addTwonumber(100,300);
  
 
 2.Anonymous Function নাম বিহিন ফাংশন
-*/
+
 const username = function (name ,sec){
     alert ("Hello " +name +" "+sec);
 }
-username('Sharif', "Ahmed")
+username('Sharif', "Ahmed");
+
+
+
+3.Arraw Function(lamdee function)
+*/
+const name =(a,b)=>{
+    alert("Hello "+ a+ " "+b);
+}
+name("Sharif", "Ahmed");
