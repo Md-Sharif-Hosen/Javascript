@@ -8,7 +8,7 @@
   4.Imedieatly invoked function expresstion(IIFE)
 
 1.General Function:
-  
+
 function addTwonumber(){
     let a=10;
     let b=20;
@@ -52,4 +52,11 @@ addTwonumber(100,300);
  alert(z);
  alert(u);
  
- */
+ 
+
+2.Anonymous Function নাম বিহিন ফাংশন
+*/
+const username = function (name ,sec){
+    alert ("Hello " +name +" "+sec);
+}
+username('Sharif', "Ahmed")
