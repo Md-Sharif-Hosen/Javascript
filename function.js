@@ -53,4 +53,20 @@ addTwonumber(100,300);
  alert(z);
  alert(u);
  
+
+ 
+
+2.Anonymous Function নাম বিহিন ফাংশন
+
+const username = function (name ,sec){
+    alert ("Hello " +name +" "+sec);
+}
+username('Sharif', "Ahmed");
 */
+3. Arraw Function(lamda FUnction)
+
+
+const myName = (a, b) => {
+  alert("Hello " + a + b);
+};
+myName("Sharif ","Ahmed");
