@@ -10,7 +10,7 @@
  *7. _, $ is acceptable but - not accaptable
  */
 
- /*
+/*
  *Var Varables:
  *1. You can re declare
  *2. You can re assaign
@@ -18,9 +18,8 @@
  *4. var is hosted
  */
 
- 
 // * You can re declare:
- /*
+/*
 var a =40;
 var a=50;
 var a ="Bangladesh";
@@ -93,3 +92,45 @@ let a;              //not working
 
 */
 
+/*
+ * const Variable
+ ! You can not re declare
+ ! You can not re assaign
+ ? Block Scooped
+ ! const is not hosted
+
+
+ ! You can not re declare:
+const a =400;
+const a="Taka" //not re declare
+console.log(a)
+
+! You can not re assaign:
+const sharif=39;
+sharif=59;  //not re assign
+console.log(sharif);
+
+ ? Block Scooped:
+
+const a=500;
+{
+    const b="Taka"
+    console.log(a+" "+b);
+    console.log(b);
+}
+
+ ! const is not hosted
+
+ console.log(sharif);
+ const sharif;   //not hosted
+*/
+
+//const এর মধ্যে যদি কোন array,object থাকে তার keys গুলো change করা যাবে।
+ const person={
+ firstName:"Md. Sharif Ahemd",
+ age:26,
+ region:"Bangladesh"
+ }
+ person.age=25;
+ person.qualification="BSc";
+ console.log(person);
