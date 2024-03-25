@@ -19,14 +19,14 @@
  */
 
  
-//  You can re declare:
+// * You can re declare:
  /*
 var a =40;
 var a=50;
 var a ="Bangladesh";
 console.log(a);
 
-You can re assign:
+*You can re assign:
 
  var a=500;
  var b="sharif Bhai";
@@ -34,7 +34,7 @@ You can re assign:
  console.log(a);
  console.log(b);
 
-Global Scooped:
+*Global Scooped:
 
 var a=50;
 var b="Sharif";
@@ -47,7 +47,7 @@ var b="Sharif";
 console.log(c);
 console.log(f);
 
-var is hosted:
+*var is hosted:
 
 console.log(hello);
 var hello="sharif";
@@ -55,3 +55,41 @@ var hello;
 console.log(hello)
 
 */
+
+/*
+ *let Varables:
+  ! You can not re declare
+ * You can re assaign
+ ? Block Scooped
+ ! let is not hosted
+ 
+
+ ! You can not re declare:
+ 
+let a=30;
+let a="Bangladesh"; //not re declare
+console.log(a);
+
+
+*You can re assign:
+
+let a=50;
+a="Bangladesh";
+console.log(a);
+
+? Block Scoped
+
+let a=500;
+{   
+    let b="Sharif";
+    console.log(a);
+    console.log(b);
+}
+
+*Let is not Hosated
+
+console.log(a);
+let a;              //not working
+
+*/
+
