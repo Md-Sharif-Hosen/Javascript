@@ -40,7 +40,6 @@ b)* No, variable names cannot contain spaces
 c) Only on weekends
 d) Spaces are optional for aesthetics
 
-
 8: Why is it a good practice to use let or const instead of var in modern JavaScript?
 a) let and const are easier to type
 b)* let and const have block-level scope, whereas var has function-level scope.
