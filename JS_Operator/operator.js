@@ -137,23 +137,56 @@ console.log(b<=a);
 */ 
 
 // ! 3. Logical Operator:
-
+/*
 let x= "Sharif is Dalal";
 x=true;
 let y = "Sharif is a Programmer";
 y=false;
 
-// *AND Operator(&&):
-
+*/
+//   *AND Operator(&&):
+/*
 console.log(x && y);
+*/ 
 
 // *OR Operator(||):
-
+/*
 console.log(x || y);
-
+*/ 
 // *NOT Operator(||):
-
+/*
 let a = 40;
 let b= 30;
 console.log(!(a<b))
 console.log(!(a>b))
+*/ 
+
+// !Assignment Operator:
+
+let a =30;   //assignment
+let b = 20;
+
+a=a+b;        //reassignment
+console.log(a);
+a+=b;
+console.log(a);
+
+a-=b;
+console.log(a);
+
+a*=b;
+console.log(a);
+
+a/=b;
+console.log(a);
+
+
+a=20;
+b=3
+a**=b;
+console.log(a);
+
+a=25;
+b=3;
+a%=b;
+console.log(a);
