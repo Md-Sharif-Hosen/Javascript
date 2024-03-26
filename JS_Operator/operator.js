@@ -162,7 +162,7 @@ console.log(!(a>b))
 */ 
 
 // !Assignment Operator:
-
+/*
 let a =30;   //assignment
 let b = 20;
 
@@ -190,3 +190,23 @@ a=25;
 b=3;
 a%=b;
 console.log(a);
+*/ 
+
+// ! 5. Conditional Operator:
+
+let a = 10;
+let b = 20;
+if (a<b){
+    console.log(true);
+}else{
+    console.log(false);
+}
+
+
+let c = a>b ? true : false;  //ternary operator
+console.log(c);
+let e=5 ;
+let d= "2" ;
+let f= `5 * "2"`;
+
+console.log(f);
