@@ -135,3 +135,25 @@ let b= 4;
 console.log(a<=b);   
 console.log(b<=a);   
 */ 
+
+// ! 3. Logical Operator:
+
+let x= "Sharif is Dalal";
+x=true;
+let y = "Sharif is a Programmer";
+y=false;
+
+// *AND Operator(&&):
+
+console.log(x && y);
+
+// *OR Operator(||):
+
+console.log(x || y);
+
+// *NOT Operator(||):
+
+let a = 40;
+let b= 30;
+console.log(!(a<b))
+console.log(!(a>b))
