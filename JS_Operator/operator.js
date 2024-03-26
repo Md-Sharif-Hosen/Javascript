@@ -80,3 +80,58 @@ if(number % 2=== 0){
  b--
  console.log(a,b);
 */
+
+
+// ! 2. Comparison Operator:
+
+// *Equal Operator(== and ===):
+/*
+let a = "4";
+let b= 4;
+let c= 4;
+console.log(a==b);   //losely assign
+console.log(a===b);  //strong assign
+console.log(b===c);
+*/ 
+
+// *NOT Equal Operator(!= and !==):
+/*
+let a = "4";
+let b= 4;
+let c= 4;
+console.log(a!=b);   //losely assign
+console.log(a!==b);  //strong assign
+console.log(b!==c);
+*/
+
+// *Grater Than Operator(>):
+/*
+let a = 40;
+let b= 4;
+console.log(a>b);   
+console.log(b>a);   
+*/ 
+
+// *Less Than Operator(<):
+/*
+let a = 40;
+let b= 4;
+console.log(a<b);   
+console.log(b<a);   
+*/ 
+
+// *Grater Than Equal Operator(<):
+/*
+let a = 40;
+let b= 4;
+console.log(a>=b);   
+console.log(b>=a);   
+ */ 
+
+// *Less Than Equal Operator(<):
+/*
+let a = 40;
+let b= 4;
+console.log(a<=b);   
+console.log(b<=a);   
+*/ 
