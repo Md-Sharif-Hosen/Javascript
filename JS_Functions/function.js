@@ -81,7 +81,7 @@ myName("Sharif ","Ahmed");
 
 
 5.Constructor FUnction
-*/
+
 function Person(first, last, age, eye) {
   this.firstName = first;
   this.lastName = last;
@@ -95,3 +95,5 @@ const myFather = new Person("John", "Doe", 50, "blue");
 // Display age
 document.getElementById("demo").innerHTML =
 "My father is " + myFather.age + "." +"His Favourite color is "+ myFather.eyeColor; 
+
+*/
