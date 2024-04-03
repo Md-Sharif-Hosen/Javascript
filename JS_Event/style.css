@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+.btn,.btn1,.btn2,.btn3,.btn4{
+  background: red;
+  padding: 20px 45px;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn:hover,.btn1:hover,.btn2:hover,.btn3:hover{
+    background: #262626;
+  }
+
