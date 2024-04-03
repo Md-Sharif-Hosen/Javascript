@@ -15,6 +15,9 @@ function subsCribed(){
     document.getElementById('btn').style.backgroundColor="#262626";
     document.getElementById("text").innerHTML="Subscribed";
 }
+function likefunction(){
+    document.getElementById("like").innerHTML='<i class="fa-solid fa-thumbs-up"></i> Liked';
+}
 document.getElementById("btn1").ondblclick=function(){
     document.getElementById("btn1").innerHTML="Subscribed1😍"
     document.getElementById("btn1").style.backgroundColor="#da8f8f";
@@ -34,3 +37,41 @@ document.getElementById('btn4').addEventListener("click",function(){
     }
 })
 
+/*
+  !Keyboard Event 
+    🔗 On Key press will only work on body or form 👉 onkeypress
+    🔗 On Key up will only work on body just press up arraw key 👉 onkeyup
+    🔗 On load will only work on body 👉 onload
+    🔗 On resize will only work on body 👉 onresize
+    🔗 On scroll will only work on body 👉 onscroll
+*/
+
+function kepressfunction(){
+    document.getElementById('msg').innerHTML="key press";
+}
+function keupfunction(){
+    document.getElementById('msg').innerHTML="key UP";
+}
+
+function loadfunction(){
+    // alert("website loaded");
+    document.getElementById('alert').innerHTML="website loaded propely";
+}
+
+function windowresize(){
+  document.getElementById('textarea').style.height='100px';
+  document.getElementById('form').style.fontFamily="Franklin Gothic Medium";
+}
+function scrollfunction(){
+    
+    document.getElementById('alert').innerHTML="Scrilling✔";
+}
+
+document.getElementById('ul').addEventListener('click',function(){
+    console.log('ul clicked');
+},
+true); //event capturing (like waterfall step by step)
+document.getElementById('li').addEventListener('click',function(e){
+    console.log('li clicked');
+},
+false); //bubling ( nich theke ka korbe)
