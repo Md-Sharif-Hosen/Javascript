@@ -9,7 +9,7 @@ console.log(Math.floor(num)); ///দশমিক এর কিছু থাক�
 
 //!Sqaure Value
 let num1=3;
-console.log(Math.pow(num1,2));
+console.log(Math.pow(num1,3));
 
 //! Root Value
 console.log(Math.floor(Math.sqrt(68)));
@@ -37,6 +37,7 @@ console.log(Math.floor(Math.random().toFixed(2)*10+2));
 
 function roledice(){
     let randomNumber =Math.floor(Math.random()*6+1);
+    // console.log(randomNumber);
     let imageSource= "img/"+ randomNumber +".png";
     document.getElementById("ludu").src=imageSource;
 }
